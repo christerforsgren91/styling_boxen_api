@@ -15,6 +15,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'webmock'
+  gem 'coveralls', require: false
 end
 
 group :development do
